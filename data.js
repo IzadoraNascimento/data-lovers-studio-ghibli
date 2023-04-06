@@ -65,7 +65,7 @@ export const filterGender = (characters, gender) =>{
   return characters.filter((character) =>{
     return character.gender === gender
   })
-} 
+}
 
 export const getCharacters = (films) =>{
   let characters = []
